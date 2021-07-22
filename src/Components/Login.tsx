@@ -9,7 +9,7 @@ interface LoginState {
   loginAttempted: boolean;
   loginSuccessful: boolean;
 }
-export class Login extends React.Component<LoginState, LoginProps> {
+export class Login extends React.Component<LoginProps, LoginState> {
   state: LoginState = {
     userName: "",
     password: "",
