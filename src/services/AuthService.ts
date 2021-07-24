@@ -1,4 +1,4 @@
-import { User } from "../Model/model";
+import { User } from "../Model/Model";
 
 export class AuthService {
   public async login(
